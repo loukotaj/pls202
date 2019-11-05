@@ -32,6 +32,6 @@ density <- us_base +
 density2 <- density +
   scale_fill_gradientn(
     colors = rev(rainbow(7)),
-    breaks = c(2, 4, 10, 100,1000,10000),
+    breaks = c(2, 4, 10, 10000,100000,1000000),
     trans="log10"
   )
